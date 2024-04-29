@@ -43,11 +43,11 @@ GO
     https://raw.githubusercontent.com/MicrosoftLearning/dp-data/main/create-dw.txt
      ``` 
 11. Run the query, which creates a simple data warehouse schema and loads some data. The script should take around 30 seconds to run.
-12. Use the Refresh button on the toolbar to refresh the view. Then in the Explorer pane, verify that the dbo schema in the data warehouse now contains the following four tables:
-            DimCustomer
-            DimDate
-            DimProduct
-            FactSalesOrder
+12. Use the Refresh button on the toolbar to refresh the view. Then in the Explorer pane, verify that the dbo schema in the data warehouse now contains the following four tables: <br> <br>
+            DimCustomer <br>
+            DimDate <br>
+            DimProduct <br>
+            FactSalesOrder <br>
 
 
  [Continue >](Task3-Create-Spark-Pool.md)
