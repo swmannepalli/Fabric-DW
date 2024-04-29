@@ -7,7 +7,10 @@ Microsoft Fabric offers a comprehensive suite of services to meet all your analy
 
   -  [Task 1: Fabric Workspace and Data Warehouse Creation](Task1-Fabric-Workspace-and-Warehouse-Creation.md)
   -  [Task 2: Create Tables and Insert Data](Task2-Create-Tables-and-Insert-Data.md)
+  -  [Task 4: Clone a Table](Task4-Clone-Tables.md)
   -  [Task 3: Defining Data Model](Task3-Define-Data-Model.md)
   -  [Task 4: Query Tables](Task4-Query-Tables.md)
+  -  [Task 4: Cross-Warehouse Queries](Task4-Cross-Warehouse-Queries.md)
+  -  [Task 4: Query With Visual Query Builder](Task4-Query-With-Visual-Query-Builder.md)
   -  [Task 5: Work With Views](Task5-Work-With-Views.md)
   -  [Task 6: Visualize Data](Task6-Visualize-Data.md)
