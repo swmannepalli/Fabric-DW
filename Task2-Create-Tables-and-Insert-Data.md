@@ -50,7 +50,7 @@ GO
             FactSalesOrder <br>
 
 [Continue >](Task3-Query-Tables.md)
- [Continue >](Task3-Create-Spark-Pool.md)
+
 
 
 
