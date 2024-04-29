@@ -37,7 +37,11 @@ GO
 ```
 8. Run the new query to insert three rows into the DimProduct table.
 9. When the query has finished, select the Data tab at the bottom of the page in the data warehouse. In the Explorer pane, select the DimProduct table and verify that the three rows have been added to the table.
-10. On the Home menu tab, use the New SQL Query button to create a new query. Then copy and paste the Transact-SQL code from ``` https://raw.githubusercontent.com/MicrosoftLearning/dp-data/main/create-dw.txt ``` into the new query pane.
+10. On the Home menu tab, use the New SQL Query button to create a new query. Then copy and paste the Transact-SQL code from below link into the new query pane.
+
+    ```
+    https://raw.githubusercontent.com/MicrosoftLearning/dp-data/main/create-dw.txt
+     ``` 
 11. Run the query, which creates a simple data warehouse schema and loads some data. The script should take around 30 seconds to run.
 12. Use the Refresh button on the toolbar to refresh the view. Then in the Explorer pane, verify that the dbo schema in the data warehouse now contains the following four tables:
             DimCustomer
