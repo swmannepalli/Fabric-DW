@@ -1,4 +1,4 @@
-[Home](README.md) -  [Next Task (Create Spark Pool) >](Task3-Create-Spark-Pool.md)
+[Home](README.md) -  [Next Task (Query Tables) >](Task3-Query-Tables.md)
 
 ### Task 2: Create Tables and Insert Data
 
@@ -49,7 +49,7 @@ GO
             DimProduct <br>
             FactSalesOrder <br>
 
-
+[Continue >](Task3-Query-Tables.md)
  [Continue >](Task3-Create-Spark-Pool.md)
 
 
