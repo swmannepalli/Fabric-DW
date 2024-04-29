@@ -21,7 +21,8 @@
         GROUP BY d.[Year], d.[Month], d.MonthName
         ORDER BY CalendarYear, MonthOfYear;
 
-```
+    ```
+
 
 [Continue >](Task3-Query-Tables.md)
 
