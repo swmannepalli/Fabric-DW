@@ -20,9 +20,27 @@
         JOIN DimDate AS d ON so.SalesOrderDateKey = d.DateKey
         GROUP BY d.[Year], d.[Month], d.MonthName
         ORDER BY CalendarYear, MonthOfYear;
+   ```
+   ## Create a view
 
-    ```
+Views in Microsoft Fabric data warehousing are a powerful tool for encapsulating complex queries, managing data access permissions, simplifying data access, and facilitating cross-database querying.
 
+Create a new SQL Query, and run the following code:
+
+ ```
+  CREATE VIEW vSalesByRegion
+AS
+SELECT  d.[Year] AS CalendarYear,
+        d.[Month] AS MonthOfYear,
+        d.MonthName AS MonthName,
+        c.CountryRegion AS SalesRegion,
+       SUM(so.SalesTotal) AS SalesRevenue
+FROM FactSalesOrder AS so
+JOIN DimDate AS d ON so.SalesOrderDateKey = d.DateKey
+JOIN DimCustomer AS c ON so.CustomerKey = c.CustomerKey
+GROUP BY d.[Year], d.[Month], d.MonthName, c.CountryRegion;
+
+ ```
 
 [Continue >](Task3-Query-Tables.md)
 
