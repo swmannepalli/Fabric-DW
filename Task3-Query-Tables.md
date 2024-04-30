@@ -47,7 +47,8 @@
       ```
     6. Select the Run button to execute the query. After the query is completed, you will see the results.
   
-       <img width="770" alt="image" src="https://github.com/swmannepalli/Fabric-DW/assets/84516667/7b8e97ab-6003-44e1-87d4-0046d6254493">
+      <img width="636" alt="image" src="https://github.com/swmannepalli/Fabric-DW/assets/84516667/6365426c-12bd-4cac-956d-d22c50fa5ba7">
+
 
    ## Create a view
 
