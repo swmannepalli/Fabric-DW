@@ -21,6 +21,34 @@
         GROUP BY d.[Year], d.[Month], d.MonthName
         ORDER BY CalendarYear, MonthOfYear;
    ```
+
+   ## Create cross-warehouse queries with the SQL query editor
+
+    For this task, we will create a new warehouse and create a DimCustomer table which will be used to create cross-warehouse queries.
+
+   1. In Power BI workspace Click '+ New' and then select 'More options'. Select Warehouse under Data Warehouse. Provide name as 'Warehouse2' and click on Create.
+   2. Click on New SQL query and copy code from [HERE](Create-DimCustomer.txt) and paste in the editor. Run the query to create DimCustomer.
+   3. Go to Warehouse1, click on <img width="123" alt="image" src="https://github.com/swmannepalli/Fabric-DW/assets/84516667/fba0f735-6404-4712-8856-ac929f00484a"> and select Warehouse2 and click on Select.
+   4. To execute a cross-warehouse query, from the ribbon, select New SQL query.
+  
+      ![image](https://github.com/swmannepalli/Fabric-DW/assets/84516667/313e4755-61f6-4ada-9029-e1db626d608d)
+   5. In the query editor, copy and paste the following T-SQL code.
+
+      ```
+                   SELECT  p.ProductName,
+                    SUM(CAST(Sales.Quantity AS int)) AS SoldQuantity, 
+                    CONCAT(c.FirstName, ' ', c.LastName) AS Customer
+            FROM [MyWarehouse].[dbo].[FactSalesOrder] AS Sales
+            JOIN [MyWarehouse].[dbo].[DimProduct] AS p
+            ON Sales.ProductKey = p.ProductKey
+            JOIN [Warehouse2].[dbo].[DimCustomer] AS c
+            ON Sales.CustomerKey = c.CustomerKey
+            GROUP BY  p.ProductName, c.FirstName, c.LastName;
+      ```
+    6. Select the Run button to execute the query. After the query is completed, you will see the results.
+  
+       <img width="770" alt="image" src="https://github.com/swmannepalli/Fabric-DW/assets/84516667/7b8e97ab-6003-44e1-87d4-0046d6254493">
+
    ## Create a view
 
 Views in Microsoft Fabric data warehousing are a powerful tool for encapsulating complex queries, managing data access permissions, simplifying data access, and facilitating cross-database querying.
