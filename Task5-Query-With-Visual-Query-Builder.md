@@ -1,10 +1,10 @@
-[Home](README.md) -  [Next Task (Query Tables) >](Task3-Query-Tables.md)
+[Home](README.md) -  [Next Task (Visualize Data) >](Task6-Visualize-Data.md)
 
 ### Task 5: Query with Visual Query
 
 1. **Open** [Power BI](https://app.powerbi.com/)
 
-2. In PowerBI, **click** 'Workspaces' and **select** 'FabricSparkWS'
+2. In PowerBI, **click** 'Workspaces' and **select** 'FabricWarehouseWS'
 
 3. In 'FabricSparkWS' workspace, **click** on 'Warehouse1' Warehouse.
 4. On the Home menu, select New visual query.
@@ -24,4 +24,4 @@
 
 10. From here, you can analyze the results of this single query by selecting Visualize results or Open in Excel. 
    
-[Continue >](Task3-Query-Tables.md)
+[Continue >](Task6-Visualize-Data.md)
