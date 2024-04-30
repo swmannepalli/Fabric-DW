@@ -1,12 +1,12 @@
-[Home](README.md) -  [Next Task (Query Tables) >](Task3-Query-Tables.md)
+[Home](README.md) -  [Next Task (Clone a Table) >](Task4-Clone-Tables.md)
 
 ### Task 3: Query fact and dimension tables
 
 1. **Open** [Power BI](https://app.powerbi.com/)
 
-2. In PowerBI, **click** 'Workspaces' and **select** 'FabricSparkWS'
+2. In PowerBI, **click** 'Workspaces' and **select** 'FabricWarehouseWS'
 
-3. In 'FabricSparkWS' workspace, **click** on 'MyWarehouse' Warehouse.
+3. In 'FabricSparkWS' workspace, **click** on 'Warehouse1' Warehouse.
 
 4. Most queries in a relational data warehouse involve aggregating and grouping data (using aggregate functions and GROUP BY clauses) across related tables (using JOIN clauses).
     Create a new SQL Query, and run the following code:
@@ -38,8 +38,8 @@
                    SELECT  p.ProductName,
                     SUM(CAST(Sales.Quantity AS int)) AS SoldQuantity, 
                     CONCAT(c.FirstName, ' ', c.LastName) AS Customer
-            FROM [MyWarehouse].[dbo].[FactSalesOrder] AS Sales
-            JOIN [MyWarehouse].[dbo].[DimProduct] AS p
+            FROM [Warehouse1].[dbo].[FactSalesOrder] AS Sales
+            JOIN [Warehouse1].[dbo].[DimProduct] AS p
             ON Sales.ProductKey = p.ProductKey
             JOIN [Warehouse2].[dbo].[DimCustomer] AS c
             ON Sales.CustomerKey = c.CustomerKey
@@ -70,7 +70,7 @@ GROUP BY d.[Year], d.[Month], d.MonthName, c.CountryRegion;
 
  ```
 
-[Continue >](Task3-Query-Tables.md)
+[Continue >](Task4-Clone-Tables.md)
 
 
 
