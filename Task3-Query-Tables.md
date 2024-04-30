@@ -6,7 +6,7 @@
 
 2. In PowerBI, **click** 'Workspaces' and **select** 'FabricWarehouseWS'
 
-3. In 'FabricSparkWS' workspace, **click** on 'Warehouse1' Warehouse.
+3. In 'FabricWarehouseWS' workspace, **click** on 'Warehouse1' Warehouse.
 
 4. Most queries in a relational data warehouse involve aggregating and grouping data (using aggregate functions and GROUP BY clauses) across related tables (using JOIN clauses).
     Create a new SQL Query, and run the following code:
