@@ -2,7 +2,7 @@
 
 ### Task 1: Fabric Workspace and Warehouse creation
 
- In this task we create a workspace - FabricWarehouseWS and a Warehouse - MyWarehouse
+ In this task we create a workspace - FabricWarehouseWS and a Warehouse - Warehouse1
 
 -------------------------------------------------------------------------------------------------------------------
 
@@ -39,7 +39,7 @@
 
 7. In the new window **click** 'Warehouse'under Data Warehouse.
 
-8. **Enter** the name as 'MyWarehouse'.
+8. **Enter** the name as 'Warehouse1'.
 
 11. **Click** 'Create' button.
 
