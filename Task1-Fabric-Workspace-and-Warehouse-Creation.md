@@ -37,7 +37,7 @@
    <img width="546" alt="image" src="https://github.com/swmannepalli/Fabric-DW/assets/84516667/806a407a-f757-47eb-af28-c1b90919c3c3">
 
 
-7. In the new window **click** 'Warehouse'under Data Warehouse.
+7. In the new window **click** 'Warehouse' under Data Warehouse.
 
 8. **Enter** the name as 'Warehouse1'.
 
