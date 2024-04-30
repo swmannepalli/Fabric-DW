@@ -20,7 +20,7 @@
 
 9. In the Preview, note that the new DimProduct column has been added to the FactSalesOrder table. Expand the column by clicking the arrow to the right of the column name. Select ProductName and click OK.
 
-![image](https://github.com/swmannepalli/Fabric-DW/assets/84516667/552ecf65-b143-4413-ab9b-8950ade8e764)
+<img width="479" alt="image" src="https://github.com/swmannepalli/Fabric-DW/assets/84516667/97db246c-c218-4080-8662-add00b74e6b1">
 
 10. From here, you can analyze the results of this single query by selecting Visualize results or Open in Excel. 
    
