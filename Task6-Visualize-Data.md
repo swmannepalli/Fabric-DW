@@ -1,4 +1,4 @@
-[Home](README.md) -  [Next Task (Query Tables) >](Task3-Query-Tables.md)
+[Home](README.md) 
 
 ### Task 6: Visualize Data
 
@@ -46,5 +46,5 @@
    <img width="1739" alt="image" src="https://github.com/swmannepalli/Fabric-DW/assets/84516667/9047b379-6d25-4742-865b-64c66f83384f">
 
 
-[Continue >](Task3-Query-Tables.md)
+[Home](README.md) 
 
