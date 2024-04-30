@@ -1,12 +1,12 @@
-[Home](README.md) -  [Next Task (Query Tables) >](Task3-Query-Tables.md)
+[Home](README.md) -  [Next Task (Query With Visual Query Builder) >](Task5-Query-With-Visual-Query-Builder.md)
 
 ### Task 4: Clone Tables
 
 1. **Open** [Power BI](https://app.powerbi.com/)
 
-2. In PowerBI, **click** 'Workspaces' and **select** 'FabricSparkWS'
+2. In PowerBI, **click** 'Workspaces' and **select** 'FabricWarehouseWS'
 
-3. In 'FabricSparkWS' workspace, **click** on 'MyWarehouse' Warehouse.
+3. In 'FabricSparkWS' workspace, **click** on 'Warehouse1' Warehouse.
 
 ## Clone table as of current state
 
@@ -19,4 +19,4 @@
 4. When you select the Clone button, a clone of the table is generated and you can see it in Explorer.
 
    
-[Continue >](Task3-Query-Tables.md)
+[Continue >](Task5-Query-With-Visual-Query-Builder.md)
