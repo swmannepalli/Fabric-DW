@@ -4,9 +4,9 @@
 
 1. **Open** [Power BI](https://app.powerbi.com/)
 
-2. In PowerBI, **click** 'Workspaces' and **select** 'FabricSparkWS'
+2. In PowerBI, **click** 'Workspaces' and **select** 'FabricWarehouseWS'
 
-3. In 'FabricSparkWS' workspace, **click** on 'MyWarehouse' Warehouse.
+3. In 'FabricSparkWS' workspace, **click** on 'Warehouse1' Warehouse.
 
 4. We'll create a table called DimProduct and insert data into it. To create a table using T-SQL, click on New SQL Query and paste below code,
 
