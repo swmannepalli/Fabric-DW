@@ -6,7 +6,7 @@
 
 2. In PowerBI, **click** 'Workspaces' and **select** 'FabricWarehouseWS'
 
-3. In 'FabricSparkWS' workspace, **click** on 'Warehouse1' Warehouse.
+3. In 'FabricWarehouseWS' workspace, **click** on 'Warehouse1' Warehouse.
 4. On the Home menu, select New visual query.
 5. Drag FactSalesOrder onto the canvas. Notice that a preview of the table is displayed in the Preview pane below.
 6. Drag DimProduct onto the canvas. We now have two tables in our query.
