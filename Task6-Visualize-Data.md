@@ -4,9 +4,9 @@
 
 1. **Open** [Power BI](https://app.powerbi.com/)
 
-2. In PowerBI, **click** 'Workspaces' and **select** 'FabricSparkWS'
+2. In PowerBI, **click** 'Workspaces' and **select** 'FabricWarehouseWS'
 
-3. In 'FabricSparkWS' workspace, **click** on 'Warehouse1' Warehouse.
+3. In 'FabricWarehouseWS' workspace, **click** on 'Warehouse1' Warehouse.
 4. We need to define a data model before creating report. 
 5. At the bottom of the page in the data warehouse, select the Model tab.
 6. In the model pane, rearrange the tables in your data warehouse so that the FactSalesOrder table is in the middle, like this:
@@ -24,7 +24,7 @@
          Assume referential integrity: Unselected
 8. Repeat the process to create many-to-one relationships between the following tables:
 
-         FactSalesOrder.SalesOrderDateKey → DimDate.DateKey
+   FactSalesOrder.SalesOrderDateKey → DimDate.DateKey
    
 9. When all of the relationships have been defined, the model should look like this:
 
