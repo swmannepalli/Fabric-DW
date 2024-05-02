@@ -28,7 +28,7 @@
 
    ## IMPORTANT: If your trial capacity expired, create a Fabric capacity in Azure Portal. F2 SKU is sufficient for this lab.
 
->If name 'FabricSparkWS' is already taken, add some suffix to the end of the name for eg. 'FabricWarehouseWSTest'.
+>If name 'FabricWarehouseWS' is already taken, add some suffix to the end of the name for eg. 'FabricWarehouseWSTest'.
 
 >Workspace name should not have any spaces.
 
