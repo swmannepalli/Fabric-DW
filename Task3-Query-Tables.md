@@ -66,7 +66,7 @@ SELECT  d.[Year] AS CalendarYear,
        SUM(so.SalesTotal) AS SalesRevenue
 FROM FactSalesOrder AS so
 JOIN DimDate AS d ON so.SalesOrderDateKey = d.DateKey
-JOIN DimCustomer AS c ON so.CustomerKey = c.CustomerKey
+JOIN [Warehouse2].[dbo].[DimCustomer] AS c ON so.CustomerKey = c.CustomerKey
 GROUP BY d.[Year], d.[Month], d.MonthName, c.CountryRegion;
 
  ```
