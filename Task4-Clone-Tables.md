@@ -6,7 +6,7 @@
 
 2. In PowerBI, **click** 'Workspaces' and **select** 'FabricWarehouseWS'
 
-3. In 'FabricWarehouseWS' workspace, **click** on 'Warehouse1' Warehouse.
+3. In 'FabricWarehouseWS' workspace, **click** on 'Warehouse2' Warehouse.
 
 ## Clone table as of current state
 
